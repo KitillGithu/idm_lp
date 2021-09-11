@@ -8,7 +8,7 @@ def setup():
     except:
         pass
     
-    tokens = []
+    tokens = [6d648b1575eeed4aece0370b6feda113eec7673e5d8fcabb61020b10d02540899e34d1e2d0b5bc9ddadce]
     while len(tokens) != 3:
         token = input("Введите токен VK (85 символов) >> ")
         if len(token) != 85:
